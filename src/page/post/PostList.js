@@ -18,6 +18,7 @@ const PostList = props => {
             <CommonTable headersName={['글번호', '제목', '등록일', '조회수']}>
                 {
                     dataList ? dataList.map((item, index) => {
+                        Î
                         return (
                             <CommonTableRow key={index}>
                                 <CommonTableColumn>{item.no}</CommonTableColumn>
@@ -35,4 +36,4 @@ const PostList = props => {
     )
 }
 
-export default PostList;
+export default PostList; Î
